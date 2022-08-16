@@ -10,14 +10,16 @@
       "overrideSoName": "libcodegen.so"
     }
   },
-  "dependencies": [
+"dependencies": [
     {
       "id": "beatsaber-hook",
-      "versionRange": "^3.10.0",
+      "versionRange": "*",
       "additionalData": {
-        "useRelease": true
+        "extraFiles": [
+          "src/inline-hook"
+        ]
       }
-    }
+    },
   ],
   "additionalData": {}
 }
