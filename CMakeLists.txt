@@ -4,7 +4,7 @@ include(qpm_defines.cmake)
 cmake_minimum_required(VERSION 3.22)
 project(${COMPILE_ID})
 
-# c++ standard
+# c++ standard yes
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED 20)
 
