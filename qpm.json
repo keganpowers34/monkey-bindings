@@ -19,7 +19,8 @@
           "src/inline-hook"
         ]
       }
-    }
-  ]
-  "additionalData": {},
+    },
+  ],
+  "additionalData": {}
+
 }
