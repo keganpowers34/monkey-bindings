@@ -57,7 +57,7 @@ if ($debugbuild -eq $true) {
 } else {
 & cmake -G "Ninja" ../
 }
-& cmake --build . -j 6
+& cmake --build 
 $ExitCode = $LastExitCode
 cd ..
 exit $ExitCode
