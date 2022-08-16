@@ -53,9 +53,9 @@ if (($clean.IsPresent) -or (-not (Test-Path -Path "build")))
 
 cd build
 if ($debugbuild -eq $true) {
-& cmake -G "Ninja" -DCMAKE_BUILD_TYPE="RelWithDebInfo" ../
+& cmake -G "Ninja" ../
 } else {
-& cmake -G "Ninja" -DCMAKE_BUILD_TYPE="RelWithDebInfo" ../
+& cmake -G "Ninja" ../
 }
 & cmake --build . -j 6
 $ExitCode = $LastExitCode
