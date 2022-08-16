@@ -53,7 +53,7 @@ if (($clean.IsPresent) -or (-not (Test-Path -Path "build")))
 
 cd build
 if ($debugbuild -eq $true) {
-& cmake -G "Ninja" -DCMAKE_BUILD_TYPE="RelWithDebInfo" -DDEBUG=true ../
+& cmake -G "Ninja" -DCMAKE_BUILD_TYPE="RelWithDebInfo" ../
 } else {
 & cmake -G "Ninja" -DCMAKE_BUILD_TYPE="RelWithDebInfo" ../
 }
